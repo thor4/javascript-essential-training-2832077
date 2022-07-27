@@ -22,3 +22,7 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+
+var query = "pocketNum";
+
+console.log("The backpack has ", backpack[query], "pockets");
