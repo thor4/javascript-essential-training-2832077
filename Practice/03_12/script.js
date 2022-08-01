@@ -28,7 +28,7 @@ const hollyTree = new Tree("frontYard", 20, "green", true, 30, 10, "brown");
 console.log(
   "The",
   hollyTree.color,
-  "holly tree has",
+  " holly tree has",
   hollyTree.branches.count,
   "branches."
 );
