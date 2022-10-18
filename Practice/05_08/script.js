@@ -13,7 +13,11 @@ console.log(mainty);
 
 const attrib = document.querySelector("form");
 attrib.setAttribute("title", "this is a test"); // add a new attribute to an element
-console.log(attrib);
+console.log(attrib.getAttribute("title")); // request value of the attribute
+
+const style = document.querySelector(".page-header__heading");
+console.log(style.style); // get a list of all style properties available
+style.style.color = "blue"; // set color value via inline CSS
 
 // request the value of the attribute
 // change the value of the attribute
